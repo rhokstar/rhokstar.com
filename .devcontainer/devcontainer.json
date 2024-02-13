@@ -1,0 +1,21 @@
+{
+    "name": "JavaScript/Node.js/Next.js Development",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "settings": {
+        // Set default shell to Bash
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "dbaeumer.vscode-eslint", // ESLint for JavaScript linting
+        "esbenp.prettier-vscode", // Prettier for code formatting
+        "ms-vscode.vscode-node-azure-pack" // Node.js and JavaScript/TypeScript extension pack
+    ],
+    "forwardPorts": [
+        3000 // Default port for Next.js applications
+    ],
+    "postCreateCommand": "npm install", // Ensure dependencies are installed
+    "remoteUser": "node"
+}
