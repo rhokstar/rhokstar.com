@@ -14,7 +14,7 @@ const siteMetadata = {
   // email: '#',
   // github: 'https://github.com',
   twitter: 'https://twitter.com/realrhokstar',
-  facebook: 'https://facebook.com',
+  // facebook: 'https://facebook.com',
   youtube: 'https://www.youtube.com/@rhokstar/',
   // linkedin: 'https://www.linkedin.com',
   // threads: 'https://www.threads.net',
