@@ -73,13 +73,24 @@ module.exports = () => {
         },
       ],
     },
-    async headers() {
-      return [
-        {
-          source: '/(.*)',
-          headers: securityHeaders,
-        },
-      ]
+    // async headers() {
+    //   return [
+    //     {
+    //       source: '/(.*)',
+    //       headers: securityHeaders,
+    //     },
+    //   ]
+    // },
+    basePath: '',
+    output: 'export',
+    images: {
+      // remotePatterns: [
+      //   {
+      //     protocol: 'https',
+      //     hostname: 'picsum.photos',
+      //   },
+      // ],
+      unoptimized: true,
     },
     webpack: (config, options) => {
       config.module.rules.push({
