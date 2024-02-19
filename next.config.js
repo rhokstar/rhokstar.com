@@ -73,7 +73,7 @@ module.exports = () => {
     //     },
     //   ]
     // },
-    basePath: '',
+    basePath: '/rhokstar.com',
     output: 'export',
     images: {
       unoptimized: true,
