@@ -65,14 +65,6 @@ module.exports = () => {
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
-    images: {
-      remotePatterns: [
-        {
-          protocol: 'https',
-          hostname: 'picsum.photos',
-        },
-      ],
-    },
     // async headers() {
     //   return [
     //     {
@@ -84,12 +76,6 @@ module.exports = () => {
     basePath: '',
     output: 'export',
     images: {
-      // remotePatterns: [
-      //   {
-      //     protocol: 'https',
-      //     hostname: 'picsum.photos',
-      //   },
-      // ],
       unoptimized: true,
     },
     webpack: (config, options) => {
